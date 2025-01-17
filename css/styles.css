@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --main-font: "Inknut Antiqua", serif;
+  --heading-font: "Inknut Antiqua", serif;
+}
+
+body {
+  background-color: #000;
+  font-family: var(--main-font);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 0;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.MainColumn {
+  text-align: center;
+  background-color: rgba(217, 217, 217, 0.39);
+  padding: 10px;
+  border: 2px solid #fafafa;
+  border-radius: 20px;
+  width: 34%;
+  margin: 20px auto 0;
+  height: fit-content;
+}
+
+.MainColumn h1 {
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: left;
+  font-weight: bold;
+  padding-left: 20px;
+  text-decoration: 2px underline #42a5f5;
+  color: #ffffff;
+}
+.LogoKolom {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+}
+.start-button {
+  width: 50%;
+  height: 60px;
+  padding: 10px 30px;
+  background-color: #808080;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  font-family: Calibri, sans-serif;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 25%;
+  margin-top: 25px;
+}
+
+.start-button:hover {
+  background-color: #42a5f5;
+}
+
+.start-button:active {
+  box-shadow: 0 5px #42a5f5;
+  transform: translateY(4px);
+}
+.Form-control {
+  text-align: left;
+  padding: 20px;
+}
+
+.form-group label {
+  text-align: left;
+  display: block;
+  margin-bottom: auto;
+  color: #fff;
+}
+.lower p {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.form-group input {
+  width: calc(100% - 10px);
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 50px;
+  border: 3.5px solid #818589;
+  border-radius: 8px;
+  background-size: 20px;
+  padding-left: 17px;
+  font-size: 16px;
+}
+
+a {
+  color: #42a5f5;
+}
