@@ -50,7 +50,7 @@ $no = 0;
         <li class="nav-item active">
             <a class="nav-link" href="dashboard.php">
                 <i class="fas fa-fw fa-user"></i>
-                <span>Data Pengguna laundry</span></a>
+                <span>Data Pengguna</span></a>
         </li>
         <li class="nav-item ">
             <a class="nav-link" href="data_pelanggan.php">
@@ -118,7 +118,9 @@ $no = 0;
                         </li>
 
                     </ul>
-
+<ul>
+    <li>list aja</li>
+</ul>
                 </nav>
                 <!-- End of Topbar -->
 
